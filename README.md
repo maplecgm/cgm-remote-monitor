@@ -13,6 +13,8 @@ Nightscout Web Monitor (a.k.a. cgm-remote-monitor)
 
 [![Deploy to Heroku][heroku-img]][heroku-url]
 
+This is a fork of the original nightscout/cgm-remote-monitor and bewest/share2nightscout-bridge projects. cgm-rmeote-monitor was changed to point to the forked version of share2nightscout-bridge. share2nightscout-bridge was changed to point to the outside US Dexcom server. The ultimate aim is that share2nightscout-bridge is updated to allow configuration of both US and non-US server, so this is really a quick fix to get something up and running.
+
 This acts as a web-based CGM (Continuous Glucose Monitor) to allow
 multiple caregivers to remotely view a patient's glucose data in
 real time.  The server reads a MongoDB which is intended to be data
